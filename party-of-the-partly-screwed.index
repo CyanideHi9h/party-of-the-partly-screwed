@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Party of the partly screwed</name>
+		<description>testing materials for various materials not implimented</description>
+		<author>CyanideHi9h</author>
+		<update version="1.0">
+		</update>
+	</info>
+	<files>
+		<file name="companions.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/monster-manual/companions.xml" />
+	</files>
+</index>

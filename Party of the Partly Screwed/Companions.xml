@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+	<element name="Tressym" type="Companion" source="Cynful" id="ID_CH_HB_Companion_Tressym">
+		<supports>Familiar, Variant Familiar</supports>
+		<description>
+			<p>A tressym was a magical beast resembling a small winged cat. They could be found across the warm and temperate lands of Faerûn, and were most common in northern Cormyr, particularly in the village of Eveningstar where they were seen as good luck charms and mascots and praised for keeping down rodents. They were also popular as familiars for good wizards.</p>
+		</description>
+	<setters>
+		<set name="strength">3</set>
+		<set name="dexterity">15</set>
+		<set name="constitution">10</set>
+		<set name="intelligence">11</set>
+		<set name="wisdom">12</set>
+		<set name="charisma">12</set>
+		<set name="ac">12</set>
+		<set name="hp">5 (2d4+1)</set>
+		<set name="speed">40 ft., climb 30 ft., fly 40 ft.</set>
+		<set name="languages">Understands Common but can't speak</set>
+		<set name="skills">Perception +5, Stealth +4</set>
+		<set name="immunities">Poison</set>
+		<set name="conditionImmunities">Poisoned</set>
+		<set name="type">Monstrosity</set>
+		<set name="size">Tiny</set>
+		<set name="alignment">Chaotic Neutral</set>
+		<set name="challenge">0</set>
+		<set name="traits">ID_CH_HB_COMPANION_TRAIT_TRESSYM_DETECT_INVISIBILITY,ID_CH_HB_COMPANION_TRAIT_TRESSYM_KEEN_SMELL,ID_CH_HB_COMPANION_TRAIT_TRESSYM_POISON_SENSE</set>
+		<set name="actions">ID_CH_HB_COMPANION_ACTION_TRESSYM_CLAWS</set>
+	</setters>
+	<rules>
+		<stat name="companion:ac" value="12"/>
+		<stat name="companion:hp:max" value="5"/>
+		<stat name="companion:speed" value="40"/>
+		<stat name="companion:speed:climb" value="30"/>
+		<stat name="companion:speed:fly" value="40"/>
+		<stat name="companion:persuasion:proficiency" value="companion:proficiency" bonus="base"/>
+		<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base"/>
+	</rules>
+	</element>
+	
+	<element name="Detect Invisibility" type="Companion Trait" source="Monster Manual" id="ID_CH_HB_COMPANION_TRAIT_TRESSYM_DETECT_INVISIBILITY">
+		<description>
+			<p>Within 60 feet of the tressym, magical invisibility fails to conceal anything from the tressym's sight.</p>
+		</description>
+		<sheet>
+			<description>Within 60 feet of the tressym, magical invisibility fails to conceal anything from the tressym's sight.</description>
+		</sheet>
+	</element>
+	
+	<element name="Keen Smell" type="Companion Trait" source="Monster Manual" id="ID_CH_HB_COMPANION_TRAIT_TRESSYM_KEEN_SMELL">
+		<description>
+			<p>The tressym has advantage on Wisdom (Perception) checks that rely on smell</p>
+		</description>
+		<sheet>
+			<description>The tressym has advantage on Wisdom (Perception) checks that rely on smell</description>
+		</sheet>
+	</element>
+	
+	<element name="Poison Sense" type="Companion Trait" source="Monster Manual" id="ID_CH_HB_COMPANION_TRAIT_TRESSYM_POISON_SENSE">
+		<description>
+			<p>A tressym can detect whether a substance is poisonous by taste, touch, or smell.</p>
+		</description>
+		<sheet>
+			<description>A tressym can detect whether a substance is poisonous by taste, touch, or smell.</description>
+		</sheet>
+	</element>
+	
+	<element name="Claws" type="Companion Action" source="Monster Manual" id="ID_CH_HB_COMPANION_ACTION_TRESSYM_CLAWS">
+		<description>
+			<p>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage.</description>
+		</sheet>
+	</element>
+	
+</elements>
