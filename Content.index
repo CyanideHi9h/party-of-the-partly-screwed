@@ -5,12 +5,10 @@
 		<description>Test materials from cross-over play</description>
 		<author>CyanideHigh</author>
 		<update version="1.0">
-			<file name="core.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core.index" />
+			<file name="content.index" url="https://raw.githubusercontent.com/CyanideHi9h/party-of-the-partly-screwed/master/Content.index" />
 		</update>
 	</info>
 	<files>
-		<file name="dungeon-masters-guide.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/dungeon-masters-guide.index" />
-		<file name="monster-manual.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/monster-manual.index" />
-		<file name="players-handbook.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook.index" />
+		<file name="party-of-the-partly-screwed.index" url="https://raw.githubusercontent.com/CyanideHi9h/party-of-the-partly-screwed/master/Content/party-of-the-partly-screwed.index" />
 	</files>
 </index>
