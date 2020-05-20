@@ -8,6 +8,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="companions.xml" url="https://raw.githubusercontent.com/CyanideHi9h/party-of-the-partly-screwed/master/Content/party-of-the-partly-screwed.index" />
+		<file name="companions.xml" url="https://raw.githubusercontent.com/CyanideHi9h/party-of-the-partly-screwed/master/Content/Party%20of%20the%20Partly%20Screwed/Companions.xml" />
 	</files>
 </index>
